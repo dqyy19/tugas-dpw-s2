@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Queenstown Park Boutique Hotel</h1>
+        <img src="logo.png" alt="logo">
+    </header>
+    <nav class="menu">
+        <a href="index.html"><img src="home.png" alt=""></a>
+        <a href="#"><img src="form.png" alt="form"></a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <fieldset>
+                <form action="submitted.html" method="post">
+                    <label for="nama">Nama Lengkap :</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                    <br>
+                    <label for="email">Email :</label><br>
+                    <input type="text" id="email" name="email" required>
+                    <br>
+                    <label for="phone">No.HP :</label><br>
+                    <input type="text" id="phone" name="phone" required>
+                    <br>
+                    <label for="alamat">Alamat :</label><br>
+                    <input type="text" id="alamat" name="alamat" required>
+                    <br>
+                    <label for="kodepos">Kode Pos :</label><br>
+                    <input type="text" id="kodepos" name="kodepos" required>
+                    <br>
+                    <label for="fasilitas">Pilih Fasilitas:</label><br>
+                    <input list="daftar-fasilitas" name="fasilitas" id="fasilitas">
+                    <datalist id="daftar-fasilitas">
+                        <option value="Minuman gratis sebelum makan malam dan canape">
+                        <option value="Layanan pribadi yang diselenggarakan">
+                        <option value="Akses internet nirkabel">
+                        <option value="Ruang tamu dengan perapian">
+                        <option value="Pengaturan sewa mobil premium">
+                        <option value="Layanan katering untuk acara">
+                        <option value="Sepeda gratis">
+                        <option value="Sepeda listrik tersedia untuk disewa">
+                        <option value="Sarapan gourmet á la carte setiap hari">
+                        <option value="Parkir tertutup gratis (tergantung ketersediaan)">                       
+                    </datalist>
+                    <br>
+                    <label for="tanya">Ajukan Pertnayaan :</label><br>
+                    <textarea name="tanya" id="tanya" rows="5" cols="40" placeholder="Masukan Pertanyaan"></textarea>
+                    <br>
+                    <p>Balasan dikirimkan :</p>
+                    <label for="cek">Email</label>
+                    <input type="checkbox" id="cek" name="cek">
+                    <label for="number">No.HP</label>
+                    <input type="checkbox" id="number" name="number">
+                    <br><br>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" name="submit">
+                </form>
+            </fieldset>
+        </div>
+        <div class="sidebar"><br>
+            <p>Queenstown Park Boutique Hotel berjarak 10 menit berkendara dari Bandara Queenstown dan area ski Coronet Peak. Hotel ini berjarak 2 menit berjalan kaki ke pangkalan gondola di dekatnya. Area ski Remarkables berjarak 40 menit berkendara.</p><br>
+            <h2>QUEENSTOWN PARK</h2>
+            <h2>BOUTIQUE HOTEL</h2>
+            <br>
+            <h4>
+                <img src="lokasi.jpeg" alt="lokasi">
+                21 Robins Rd, Queenstown 9300 Selandia Baru
+            </h4>
+            <br>
+            <h4>
+                <img src="bendera.png" alt="bendera">
+                Selandia Baru
+            </h4>
+            <br>
+            <h4>
+                <a href="https://www.queenstownparkhotel.co.nz/">Website Hotel</a>
+            </h4>
+            <br>
+        </div>
+    </div>
+    <footer>
+        <p> &copy; MOH. SULTON MUQSITH A. - 240411100221 - DPW - B - Copyright 2025</p>
+    </footer>
+</body>
+</html>

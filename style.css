@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#e1ddc6,#a4282e);
+    padding: 30px;
+    margin: 0;
+}
+header h1 {
+    font-size: 24px;
+}
+header img {
+    position: absolute;
+    right: 20px;
+    width: 50px;
+    height: auto;
+    border-radius: 20%;
+}
+.menu {
+    background: linear-gradient(to right,#ecd9d9,#99353a);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.menu a {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.menu a img {
+    width: 25px;
+    height: auto;
+    border-radius: 20%;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.menu a img:hover{
+    box-shadow: 0 0 20px #e1ddc6;
+}
+.container {
+    background-color: #ecd9d9;
+    display: flex;
+    padding: 20px;
+}
+.content{
+    flex: 4;
+}
+.sidebar {
+    flex: 1;
+    background-color:white;
+    border-radius: 2%;
+    font-size: 16px;
+    text-align: center;
+}
+.sidebar img {
+    height: auto;
+    width: 20px;
+}
+footer {
+    text-align: center;
+    background: linear-gradient(to right,#ecd9d9,#99353a);
+    font-size: small;
+}
+footer p {
+    color: rgb(71, 67, 67);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.content fieldset {
+    text-align: center;
+    background: linear-gradient(135deg, #a4282e, #6e161b);
+    border-radius: 16px;
+    border: 1px solid #e1ddc6;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(225, 221, 198, 0.4);
+}
+
+.content fieldset legend {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content input[type="text"],
+.content textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+.content textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+.content input[type="submit"] {
+    background: #e1ddc6;
+    color: #a4282e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.content input[type="submit"]:hover {
+    background: #fff;
+    color: #a4282e;
+    box-shadow: 0 0 10px #e1ddc6;
+}
